@@ -1,0 +1,135 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+/*  Menu de escolha */
+body {
+	padding-top:10px;
+	padding-left:10px;
+}
+.menu{
+	list-style-type: none;
+	border: 0px solid;
+	float: left;
+	font-size: 25;
+}
+
+.menu li{
+
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.menu li ul{
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	display: none;
+}
+
+li:hover {
+	background-color:#808080;
+}
+
+.menu li:hover ul, .menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul{
+	display: block;
+}
+
+.menu li ul li{
+	border: 1px solid;
+	display: block;
+	width: 150px;
+	height: 35px;
+	line-height: 25px;
+}
+
+
+/*/*
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/03/2018, 10:05:21
+    Author     : f7034899
+*/
+
+
+
+
+#divTesteiraAction {
+    align-items: center;
+    background-color: #1976d2;
+    border: 0 solid tomato;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 105px;
+    font-family: "Arial"
+}
+#divTituloAction{
+    width: 100%;
+    border: solid 0px tomato;  
+}
+#divDataAction{
+    display: block;
+    font-size:12px;
+    color: #fff;  
+    text-align: right; 
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);  
+    width: 14%;
+    border: solid 0px tomato;  
+}
+
+
+#navy_footer_box {
+    background-color: #ebebeb;
+    color: #ffffff;
+    min-height: 10px;
+    position: relative;
+    width: 100%;
+}
+#navy_footer {
+    /*background-color: rgb(20, 75, 112);*/
+    background-color: #1976d2;
+    font-size: 12px;
+    min-height: 40px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    position: relative;
+    width: 100%;
+}
+
+#bt1{
+	font-size:20px;
+	height: 35px;
+	width: 70px;
+	border: none;
+	border-radius: 5px;
+	background-color: #EEE;
+	padding: 4px;
+}
+
+#bt1:hover{
+	background-color: #CCC;
+}
+
+#bt2{
+	font-size:20px;
+	height: 35px;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+	background-color: #EEE;
+	padding: 4px;
+}
+
+#bt2:hover{
+	background-color: #CCC;
+}

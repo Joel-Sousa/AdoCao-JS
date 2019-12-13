@@ -1,0 +1,10 @@
+Logins De Administrador e Funcionario!
+
+
+Administrador
+
+Usuario:joel
+Senha:12345678
+
+Usuario:felipe  
+senha:12345678
