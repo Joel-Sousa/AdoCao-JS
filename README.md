@@ -1,2 +1,2 @@
 # AdoCao
-Sistema para adoção de cães (JavaScript).
+Sistema para adoção de cães.
